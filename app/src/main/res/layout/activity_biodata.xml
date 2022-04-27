@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BiodataActivity">
+
+    <!-- Layout container -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorMainBackground"
+        android:clipToPadding="false"
+        android:padding="@dimen/dimen26"
+        tools:context=".view.activation.RegisterFragment">
+
+        <!-- Layout Main Context Area -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen50"
+            android:orientation="vertical">
+
+            <!-- TextView Title Input "Panggilan "Area -->
+            <TextView
+                style="@style/TextGunmetalNunitoBold24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen2"
+                android:layout_marginLeft="@dimen/dimen2"
+                android:text="@string/biodata_name" />
+            <!-- End of TextView Title Input "Panggilan" Area -->
+
+            <!-- EditText Input "Panggilan" Area -->
+            <EditText
+                android:id="@+id/edtBiodataName"
+                style="@style/EdtWhiteFour15"
+                android:inputType="textCapWords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/biodata_hint_name_holder"
+                android:maxLength="8"
+                android:paddingTop="@dimen/dimen14"
+                android:paddingBottom="@dimen/dimen14" />
+            <!-- End of EditText Input "Panggilan" Area -->
+
+            <!-- TextView Title Input "Umur" Area -->
+            <TextView
+                style="@style/TextGunmetalNunitoBold24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen2"
+                android:layout_marginLeft="@dimen/dimen2"
+                android:layout_marginTop="@dimen/dimen34"
+                android:text="@string/biodata_age" />
+            <!-- End of TextView Title Input "Umur" Area -->
+
+            <!-- EdiText Input "Umur" Area -->
+            <EditText
+                android:id="@+id/edtBiodataAge"
+                style="@style/EdtWhiteFour15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/biodata_age_holder"
+                android:inputType="number"
+                android:paddingTop="@dimen/dimen14"
+                android:paddingBottom="@dimen/dimen14" />
+            <!-- End of EditText Input "Umur" Area -->
+
+        </LinearLayout>
+        <!-- End of Layout Main Context Area -->
+
+        <!-- Button "Selanjutnya" Area -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnBiodataNext"
+            style="@style/ButtonYellowRounded18RubikMedium14Black"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen36"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:paddingStart="@dimen/dimen50"
+            android:paddingEnd="@dimen/dimen50"
+            android:text="@string/next"
+            android:textAllCaps="false" />
+        <!-- End of Button "Selanjutnya" Area -->
+
+    </RelativeLayout>
+    <!-- End of Layout container -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--
+    Tanggal     : Rabu, 27 April 2022
+    Deskripsi   : Design Activity untuk form Biodata
+    NIM         : 10119239
+    Nama        : Dea Inesia Sri Utami
+    Kelas       : IF6
+-->

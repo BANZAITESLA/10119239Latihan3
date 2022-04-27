@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMainBackground"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity">
+
+    <!-- Background ImageView Area -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_get_start_monitory"
+        android:contentDescription="@string/walkthrough_text"
+        app:layout_constraintBottom_toTopOf="@id/footer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <!-- End of Background ImageView Area -->
+
+    <!-- TextView Title Area -->
+    <TextView
+        android:id="@+id/txtWalkthroughTitle"
+        style="@style/TextRubikMedium24Black87"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen36"
+        android:layout_marginEnd="@dimen/dimen36"
+        android:gravity="center"
+        android:text="@string/walkthrough_text"
+        app:layout_constraintBottom_toTopOf="@id/footer"
+        app:layout_constraintTop_toTopOf="parent" />
+    <!-- End of TextView Title Area -->
+
+    <!-- Layout untuk Button -->
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen104"
+        android:background="@drawable/bg_lin_border_white"
+        android:elevation="@dimen/dimen6"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <!-- Button "Mulai" Area -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnWalkthroughStart"
+            style="@style/ButtonYellowRounded18RubikMedium14Black"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen36"
+            android:elevation="@dimen/dimen6"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="@dimen/dimen26"
+            android:layout_marginEnd="@dimen/dimen26"
+            android:text="@string/walkthrough_button_start"
+            android:textAllCaps="false" />
+        <!-- End of Button "Mulai" Area -->
+
+    </RelativeLayout>
+    <!-- End of Layout untuk Button -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--
+    Tanggal     : Rabu, 27 April 2022
+    Deskripsi   : Design Activity untuk form Welcome
+    NIM         : 10119239
+    Nama        : Dea Inesia Sri Utami
+    Kelas       : IF6
+-->

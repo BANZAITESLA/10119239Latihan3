@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextGunmetalNunitoBold24">
+        <item name="android:textColor">@color/colorGunmetal</item>
+        <item name="android:textSize">@dimen/font24</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextNunitoBold24Black87" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/nunito_bold</item>
+        <item name="android:textColor">@color/colorBlack87</item>
+        <item name="android:textSize">@dimen/font24</item>
+    </style>
+
+    <style name="TextBlack87NunitoBold18" >
+        <item name="android:textColor">@color/colorBlack87</item>
+        <item name="android:textSize">@dimen/font18</item>
+    </style>
+
+    <style name="TextBlack87RubikRegular12" >
+        <item name="android:textColor">@color/colorBlack87</item>
+        <item name="android:textSize">@dimen/font12</item>
+    </style>
+
+    <style name="TextRubikRegular15Black87" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/rubik_regular</item>
+        <item name="android:textColor">@color/colorBlack87</item>
+        <item name="android:textSize">@dimen/font15</item>
+    </style>
+
+    <style name="TextRubikRegular12Black87" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/rubik_regular</item>
+        <item name="android:textColor">@color/colorBlack87</item>
+        <item name="android:textSize">@dimen/font12</item>
+    </style>
+
+    <style name="TextRubikMedium24Black87" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/rubik_medium</item>
+        <item name="android:textColor">@color/colorBlack87</item>
+        <item name="android:textSize">@dimen/font24</item>
+    </style>
+</resources>
+
+<!--
+    Tanggal     : Rabu, 27 April 2022
+    Deskripsi   : Style untuk Text
+    NIM         : 10119239
+    Nama        : Dea Inesia Sri Utami
+    Kelas       : IF6
+-->

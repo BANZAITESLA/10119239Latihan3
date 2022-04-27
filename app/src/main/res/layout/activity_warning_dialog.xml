@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_white_dialog_rounded"
+    android:padding="@dimen/dimen12"
+    android:gravity="center">
+
+    <!-- TODO: Update blank fragment layout *(COMPLETED)* -->
+
+    <!-- Layout Title -->
+    <LinearLayout
+        android:id="@+id/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:layout_margin="@dimen/dimen20">
+
+        <!-- ImageView Warning Icon Area -->
+        <ImageView
+            android:id="@+id/imgWarningDialogInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/txtWarningDialogTitle"
+            android:layout_alignBottom="@+id/txtWarningDialogTitle"
+            android:contentDescription="@string/check_code_warning_empty_title"
+            android:src="@drawable/ic_info"
+            android:visibility="visible" />
+        <!-- End of ImageView Warning Icon Area -->
+
+        <!-- TextView Title Area -->
+        <TextView
+            android:id="@+id/txtWarningDialogTitle"
+            style="@style/TextBlack87NunitoBold18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen6"
+            android:layout_marginLeft="@dimen/dimen6"
+            android:layout_toEndOf="@+id/imgWarningDialogInfo"
+            android:layout_toRightOf="@+id/imgWarningDialogInfo"
+            android:text="@string/check_code_warning_empty_title" />
+        <!-- End of TextView Title Area -->
+
+    </LinearLayout>
+    <!-- End of Layout Title -->
+
+    <!-- TextView Desc Area -->
+    <TextView
+        android:id="@+id/txtWarningDialogDesc"
+        style="@style/TextBlack87RubikRegular12"
+        android:layout_margin="@dimen/dimen20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/layout_title"
+        android:text="@string/check_code_warning_empty_desc" />
+    <!-- End of TextView Desc Area -->
+
+    <!-- Button "Oke" Area -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnWarningDialogOk"
+        style="@style/ButtonYellowRounded18RubikMedium14Black"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen36"
+        android:layout_below="@+id/txtWarningDialogDesc"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/dimen20"
+        android:text="@string/activation_oke"
+        android:textAllCaps="false" />
+    <!-- End of Button "Oke" Area -->
+
+</RelativeLayout>
+
+<!--
+    Tanggal     : Rabu, 27 April 2022
+    Deskripsi   : Design Activity untuk Warning Dialog
+    NIM         : 10119239
+    Nama        : Dea Inesia Sri Utami
+    Kelas       : IF6
+-->

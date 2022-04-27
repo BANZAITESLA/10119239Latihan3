@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/colorWhite" />
+    <stroke
+        android:width="@dimen/dimen1"
+        android:color="@color/colorBlack87" />
+    <corners android:radius="@dimen/dimen25" />
+</shape>
+
+<!--
+    Tanggal     : Rabu, 27 April 2022
+    Deskripsi   : Set shape EditText untuk form Login Code
+    NIM         : 10119239
+    Nama        : Dea Inesia Sri Utami
+    Kelas       : IF6
+-->

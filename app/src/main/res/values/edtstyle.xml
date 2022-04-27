@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="EditWhiteBorderYellowRubikRegular14Gunmetal" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/bg_edit_white_border_black_rounded25</item>
+        <item name="android:textColorHint">@color/colorCoolGrey</item>
+        <item name="android:textColor">@color/colorBlack87</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/dimen14</item>
+    </style>
+
+    <style name="EdtWhiteFour15">
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:textColorHint">@color/colorWhiteFour</item>
+        <item name="android:textColor">@color/colorGunmetal</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/dimen15</item>
+    </style>
+</resources>
+
+<!--
+    Tanggal     : Rabu, 27 April 2022
+    Deskripsi   : Style untuk Edit
+    NIM         : 10119239
+    Nama        : Dea Inesia Sri Utami
+    Kelas       : IF6
+-->
